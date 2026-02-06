@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dropdown Menu</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Dhanush given huge contribution by building this project</h1>
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-brand">MyWebsite</div>
@@ -75,19 +74,87 @@
     </nav>
 
     <div class="container">
-      <h1>Welcome to Dropdown Menu Demo</h1>
-      <p>
-        Hover over "Services" or "Products" in the navigation bar to see the
-        dropdown menus in action.
-      </p>
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Get in touch with us today.</p>
+
       <div class="content-box">
-        <h2>Features</h2>
-        <ul>
-          <li>Responsive dropdown menus</li>
-          <li>Smooth animations</li>
-          <li>Clean and modern design</li>
-          <li>Easy to customize</li>
-        </ul>
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> info@mywebsite.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p>
+          <strong>Address:</strong> 123 Business Street, Suite 100, City, State
+          12345
+        </p>
+      </div>
+
+      <div class="content-box">
+        <h2>Contact Form</h2>
+        <form>
+          <div style="margin-bottom: 15px">
+            <label for="name" style="display: block; margin-bottom: 5px"
+              >Name:</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              style="
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+              "
+              required
+            />
+          </div>
+          <div style="margin-bottom: 15px">
+            <label for="email" style="display: block; margin-bottom: 5px"
+              >Email:</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              style="
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+              "
+              required
+            />
+          </div>
+          <div style="margin-bottom: 15px">
+            <label for="message" style="display: block; margin-bottom: 5px"
+              >Message:</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              style="
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+              "
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            style="
+              padding: 10px 20px;
+              background-color: #3498db;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            "
+          >
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
 
