@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dropdown Menu</title>
+    <title>Products</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Dhanush given huge contribution by building this project</h1>
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-brand">MyWebsite</div>
@@ -47,21 +46,9 @@
               >Products</a
             >
             <ul class="dropdown-menu">
-              <li>
-                <a href="products.html#product-1" class="dropdown-item"
-                  >Product 1</a
-                >
-              </li>
-              <li>
-                <a href="products.html#product-2" class="dropdown-item"
-                  >Product 2</a
-                >
-              </li>
-              <li>
-                <a href="products.html#product-3" class="dropdown-item"
-                  >Product 3</a
-                >
-              </li>
+              <li><a href="#product-1" class="dropdown-item">Product 1</a></li>
+              <li><a href="#product-2" class="dropdown-item">Product 2</a></li>
+              <li><a href="#product-3" class="dropdown-item">Product 3</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -75,19 +62,36 @@
     </nav>
 
     <div class="container">
-      <h1>Welcome to Dropdown Menu Demo</h1>
+      <h1>Our Products</h1>
       <p>
-        Hover over "Services" or "Products" in the navigation bar to see the
-        dropdown menus in action.
+        Explore our innovative products designed to solve real-world problems.
       </p>
+
       <div class="content-box">
-        <h2>Features</h2>
-        <ul>
-          <li>Responsive dropdown menus</li>
-          <li>Smooth animations</li>
-          <li>Clean and modern design</li>
-          <li>Easy to customize</li>
-        </ul>
+        <h2 id="product-1">Product 1</h2>
+        <p>
+          A cutting-edge solution that streamlines your business operations and
+          increases productivity.
+        </p>
+        <p>Price: $99/month</p>
+      </div>
+
+      <div class="content-box">
+        <h2 id="product-2">Product 2</h2>
+        <p>
+          An advanced analytics platform that provides deep insights into your
+          customer behavior.
+        </p>
+        <p>Price: $149/month</p>
+      </div>
+
+      <div class="content-box">
+        <h2 id="product-3">Product 3</h2>
+        <p>
+          A comprehensive management suite with all the tools you need in one
+          integrated platform.
+        </p>
+        <p>Price: $199/month</p>
       </div>
     </div>
 
